@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z4OTInUoOdzMt+fmpQ8qZAShfwpZfJXj+o1cDs0bus59M5V/1d1eQG0XbNAhNDDlc94c60Gr+fNGcrkihOLAIA==",
+  "dgSpecHash": "amCG4wMENiKbHXckt9vkBJ430HZQjbNI9XQOMP2VG1wngFqUiyb0KjCn9TEYwgS9gsougAIjt6CZCSfwLfknEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodie\\OneDrive\\Documents\\GitHub\\ConwaysGameOfLife\\ConwaysGameOfLife\\ConwaysGameOfLife\\ConwaysGameOfLife.csproj",
+  "projectFilePath": "C:\\Users\\rodie\\OneDrive\\Documents\\GitHub\\C#\\ConwaysGameOfLife\\ConwaysGameOfLife\\ConwaysGameOfLife\\ConwaysGameOfLife.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

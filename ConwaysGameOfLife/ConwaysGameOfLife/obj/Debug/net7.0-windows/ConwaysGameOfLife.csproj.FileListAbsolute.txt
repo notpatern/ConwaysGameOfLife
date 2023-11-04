@@ -1,0 +1,14 @@
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.AssemblyInfoInputs.cache
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.AssemblyInfo.cs
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.csproj.CoreCompileInputs.cache
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\net7.0-windows\ConwaysGameOfLife.exe
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\net7.0-windows\ConwaysGameOfLife.deps.json
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\net7.0-windows\ConwaysGameOfLife.runtimeconfig.json
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\net7.0-windows\ConwaysGameOfLife.dll
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\net7.0-windows\ConwaysGameOfLife.pdb
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.dll
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\refint\ConwaysGameOfLife.dll
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.pdb
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ConwaysGameOfLife.genruntimeconfig.cache
+C:\Users\rodie\OneDrive\Documents\GitHub\C#\ConwaysGameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\net7.0-windows\ref\ConwaysGameOfLife.dll
