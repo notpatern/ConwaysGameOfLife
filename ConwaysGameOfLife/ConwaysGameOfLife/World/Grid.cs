@@ -19,6 +19,7 @@ public class Grid
 
     public Grid(int nbCells, List<Coords> aliveCellsCoords, bool pedestrian, int scale)
     {
+        random = new Random();
         this.N = nbCells;
         this._scale = scale;
         this._brush = new SolidBrush(Color.White);
@@ -42,11 +43,9 @@ public class Grid
         {
             for (int x = 0; x < N; x++)
             {
-                random = new Random();
                 int prob = random.Next(100);
                 _tabCells[y, x] = new Cell(false);
-                if (prob <= 15)
-                    _tabCells[y, x].IsAlive = true;
+                _tabCells[y, x].IsAlive = prob <= 15;
             }
         }
     }

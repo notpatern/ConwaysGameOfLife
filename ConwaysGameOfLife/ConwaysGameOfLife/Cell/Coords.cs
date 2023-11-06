@@ -24,6 +24,6 @@ public struct Coords
 
     public override string ToString()
     {
-        return "";
+        return X.ToString() + Y.ToString();
     }
 }

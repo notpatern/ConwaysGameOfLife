@@ -7,6 +7,7 @@
         private int scale;
         private SolidBrush brush;
 
+        // creates a rectangle because I didn't wanna have to use a panel, they're just inconvenient
         public MainPanel(int size, int scale, Color color)
         {
             this.rectangle = new Rectangle(0, 0, size * scale, size * scale);

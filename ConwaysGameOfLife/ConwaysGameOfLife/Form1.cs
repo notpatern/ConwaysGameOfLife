@@ -64,13 +64,15 @@ namespace ConwaysGameOfLife
             game = new Game(size, speed, FourPulsarsSimulation(), pedestrian, scale, this);
             brush = new SolidBrush(Color.White);
             mainPanel = new MainPanel(size, scale, color);
+
             InitWindow();
             InitButtons();
             play.Click += delegate (object? sender, EventArgs e) { game.gameTimer.Start(); };
-            restart.Click += delegate (object? sender, EventArgs e) { game._grid.Restart(); };
+            restart.Click += delegate (object? sender, EventArgs e) { game.RestartInit(); };
             pause.Click += delegate (object? sender, EventArgs e) { game.gameTimer.Stop(); };
-            random.Click += delegate (object? sender, EventArgs e) { game._grid.RandomGen(); };
+            random.Click += delegate (object? sender, EventArgs e) { game.RandomGenInit(); };
             quit.Click += delegate (object? sender, EventArgs e) { Close(); };
+
             Paint += Render;
         }
 
@@ -90,6 +92,7 @@ namespace ConwaysGameOfLife
         }
         public void InitButtons()
         {
+            #region Play button
             play = new Button();
             play.Text = "Play";
             play.Size = new Size(100, 50);
@@ -98,7 +101,9 @@ namespace ConwaysGameOfLife
             play.BackColor = Color.White;
             play.Location = new Point(size * scale, scale);
             Controls.Add(play);
+            #endregion
 
+            #region Pause button
             pause = new Button();
             pause.Text = "Pause";
             pause.Size = new Size(100, 50);
@@ -106,7 +111,9 @@ namespace ConwaysGameOfLife
             pause.FlatAppearance.CheckedBackColor = Color.White;
             pause.Location  = new Point(size * scale, 60);
             Controls.Add(pause);
+            #endregion
 
+            #region Restart button
             restart = new Button();
             restart.Text = "Restart";
             restart.Size = new Size(100, 50);
@@ -114,7 +121,9 @@ namespace ConwaysGameOfLife
             restart.FlatAppearance.CheckedBackColor = Color.White;
             restart.Location = new Point(size * scale, 120);
             Controls.Add(restart);
+            #endregion
 
+            #region Random button
             random = new Button();
             random.Text = "Random";
             random.Size = new Size(100, 50);
@@ -122,7 +131,9 @@ namespace ConwaysGameOfLife
             random.FlatAppearance.CheckedBackColor = Color.White;
             random.Location = new Point(size * scale, 180);
             Controls.Add(random);
+            #endregion
 
+            #region Quit button
             quit = new Button();
             quit.Text = "Quit";
             quit.Size = new Size(100, 50);
@@ -131,6 +142,7 @@ namespace ConwaysGameOfLife
             quit.BackColor = Color.White;
             quit.Location = new Point(size * scale, 240);
             Controls.Add(quit);
+            #endregion
         }
         public void Render(object? sender, PaintEventArgs e)
         {

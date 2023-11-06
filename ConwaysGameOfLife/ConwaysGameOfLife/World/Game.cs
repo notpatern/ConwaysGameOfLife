@@ -1,5 +1,6 @@
 ﻿namespace ConwaysGameOfLife.World;
 using Cell;
+using System;
 using System.Windows.Forms;
 
 public class Game
@@ -19,9 +20,25 @@ public class Game
 
     void InitTimer()
     {
-        gameTimer = new Timer();
+        gameTimer = new Timer(); 
         gameTimer.Interval = (_sleepTime);
         gameTimer.Tick += new EventHandler(Run);
+    }
+
+    public void RandomGenInit()
+    {
+        _grid.RandomGen();
+        gameTimer.Stop();
+
+        form.Invalidate();
+    }
+
+    public void RestartInit()
+    {
+        _grid.Restart();
+        gameTimer.Stop();
+
+        form.Invalidate();
     }
 
     public void Run(object? sender, EventArgs e)
